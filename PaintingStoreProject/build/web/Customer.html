@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styling.css" />
+        <title>Add Customer</title>
+        
+    </head>
+    <body>
+     <h2 class="heading h1">ADD A NEW CUSTOMER</h2>
+
+     <form class="f1" action="AddServlet" method="get">
+         
+            <label for="Number">Customer Number:</label><br>
+            <input type="text" id="CNumber" name="CNumber"><br>
+            
+            <label for="name">Customer Name:</label><br>
+            <input type="text" id="Cname" name="Cname"><br>
+            
+            <label for="Address">Customer Address:</label><br>
+            <input type="text" id="CAddress" name="CAddress"><br>
+            <label for="Category">Customer Category:</label><br>
+            <input type="text" id="CCategory" name="CCategory" ><br>
+            
+            <button class="btn enter Customer">ENTER</button>
+           
+            <br>
+            
+        </form>
+     <a href="index.html">
+            <button class="btn enter Customer">CANCEL</button>
+            </a>
+    </body>
+</html>

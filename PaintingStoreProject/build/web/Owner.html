@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Add Owner</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+             body{
+          background-image: url(backgroud.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-position: center;
+          text-align: center;
+        }
+       
+        .heading{
+            margin: 25px 25px;
+                padding: 25px 25px;
+            color: rgb(34, 14, 0);
+            font-size: x-large;
+            color:rgb(34, 14, 0);
+            text-shadow: 1px 1px 12px;
+        }
+
+        .heading2{
+            font-size: xxx-large;
+            color:rgb(34, 14, 0);
+            text-shadow: 1px 1px 12px;
+            margin: 0px 0px;
+        }
+            .f1{
+                text-align: center;
+                margin: 25px 25px;
+                padding: 25px 25px;
+                font-size: 20px;
+            }  
+        </style>
+    </head>
+     <body>
+     <h2 class="heading h1">ADD A NEW OWNER</h2>
+
+        <form class="f1" action="OwnerServlet" method="get">
+            <label for="Number">Owner Number:</label><br>
+            <input type="text" id="ONumber" name="ONumber"><br>
+            <label for="name">Owner Name:</label><br>
+            <input type="text" id="Oname" name="Oname"><br>
+            <label for="Address">Owner Address:</label><br>
+            <input type="text" id="OAddress" name="OAddress"><br>
+            <label for="birth">Owner Telephone:</label><br>
+            <input type="text" id="Otelephone" name="Otelephone"><br>
+            <button class="btn enter Customer">ENTER</button>
+            <br>
+            
+        </form>
+     <a href="index.html">
+            <button class="btn enter Customer">CANCEL</button>
+            </a>
+    </body>
+</html>

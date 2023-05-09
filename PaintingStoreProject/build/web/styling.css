@@ -1,0 +1,90 @@
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Dec 27, 2022, 12:42:28 AM
+    Author     : hashi
+*/
+
+          body{
+          background-image: url(backgroud.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-position: center;
+        
+         
+        }
+       
+        .text{
+            color:  rgb(34, 14, 0); 
+        }
+        .heading{
+            text-align: center;
+            margin: 25px 25px;
+            padding: 25px 25px;
+            color: rgb(34, 14, 0);
+            font-size: x-large;
+            color:rgb(34, 14, 0);
+            text-shadow: 1px 1px 12px;
+        }
+
+        .heading2{
+            text-align: center;
+            font-size: xxx-large;
+            color:rgb(34, 14, 0);
+            text-shadow: 1px 1px 12px;
+            margin: 0px 0px;
+        }
+            .f1{
+                
+                text-align: center;
+                margin: 25px 25px;
+                padding: 25px 25px;
+                font-size: 20px;
+            }  
+   
+         .p{
+                text-align: left;
+                font-size: 30px;
+            }
+  .button {
+      text-align: center;
+        border: none;
+        color: rgb(34, 14, 0);
+        padding: 15px 32px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 25px 60px;
+        cursor: pointer;
+        width: 200px;
+        height: 100px;
+        position: center;
+        opacity: 0.95;
+        background-color: rgba(181, 158, 141, 0.58);
+        box-shadow: 2px 5px 10px;
+        }
+
+        .btn {
+            text-align: center;
+            align-content: center;
+        border: none;
+        color: rgb(34, 14, 0);
+        padding: 15px 32px;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin: 25px 60px;
+        cursor: pointer;
+        width: 130px;
+        height: 50px;
+        position: center;
+        opacity: 0.95;
+        background-color: rgba(181, 158, 141, 0.58);
+        box-shadow: 2px 5px 10px;
+        }
